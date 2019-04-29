@@ -3,6 +3,13 @@ $ echo "# learning_git" >> README.md
 git add .
 git commit -m "first commit"
 $ git remote add origin https://github.com/Bar0hayon/learning_git.git
-$ git push -u origin master
+$ git push -u origin master													//first push
+git push origin master														//second push
 
-touch string.txt		//adding a file
+git status
+
+git rm "file name"															//removes a file
+
+git checkout -b new_branch													//making a new branch
+
+touch string.txt															//adding a file
