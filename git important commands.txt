@@ -1,0 +1,8 @@
+git init
+$ echo "# learning_git" >> README.md
+git add .
+git commit -m "first commit"
+$ git remote add origin https://github.com/Bar0hayon/learning_git.git
+$ git push -u origin master
+
+touch string.txt		//adding a file
